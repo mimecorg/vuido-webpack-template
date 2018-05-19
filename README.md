@@ -1,8 +1,6 @@
-# webpack-simple
+# vuido-webpack-template
 
-> A simple Vue 2.0 Webpack & `vue-loader` setup for quick prototyping. Note this template is not suitable for production - for that you may want to use the [full webpack template](https://github.com/vuejs-templates/webpack).
-
-> This template is Vue 2.0 compatible. For Vue 1.x use this command: `vue init webpack-simple#1.0 my-project`
+Template for native desktop applications using [Vuido](https://github.com/mimecorg/vuido) and webpack.
 
 ### Usage
 
@@ -10,19 +8,16 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init webpack-simple my-project
+$ vue init mimecorg/vuido-webpack-template my-project
 $ cd my-project
 $ npm install
-$ npm run dev
+$ npm run build
+$ npm start
 ```
 
-### What's Included
+### Documentation
 
-- `npm run dev`: Webpack + `vue-loader` with proper config for source maps & hot-reload.
-
-- `npm run build`: build with HTML/CSS/JS minification.
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader). Also check out the [breaking changes in vue-loader@9.0.0](https://github.com/vuejs/vue-loader/releases/tag/v9.0.0).
+For detailed explanation on how things work, consult the [Vuido documentation](https://vuido.mimec.org/).
 
 ### Fork It And Make Your Own
 
