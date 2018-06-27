@@ -11,7 +11,7 @@
   "license": "{{ license }}",
   "private": true,
   "dependencies": {
-    "vuido": "^0.1.0"
+    "vuido": "^0.1.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -19,7 +19,7 @@
     "babel-preset-env": "^1.7.0",
     "vue-loader": "^15.0.11",
     "vue-template-compiler": "^2.5.16",
-    "vuido-template-compiler": "^0.1.0",
+    "vuido-template-compiler": "^0.1.2",
     "webpack": "^3.12.0"
   }
 }
