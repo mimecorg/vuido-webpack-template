@@ -1,12 +1,12 @@
-const path = require('path');
-const webpack = require('webpack');
-const VueLoaderPlugin = require('vue-loader/lib/plugin');
-const VuidoTemplateCompiler = require('vuido-template-compiler');
+const path = require( 'path' );
+const webpack = require( 'webpack' );
+const VueLoaderPlugin = require( 'vue-loader/lib/plugin' );
+const VuidoTemplateCompiler = require( 'vuido-template-compiler' );
 
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: path.resolve(__dirname, '../dist'),
+    path: path.resolve( __dirname, '../dist' ),
     filename: 'main.js'
   },
   target: 'node',
@@ -27,10 +27,10 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['.js', '.vue', '.json']
+    extensions: [ '.js', '.vue', '.json' ]
   },
   plugins: [
-    new webpack.ExternalsPlugin('commonjs', ['libui-node']),
+    new webpack.ExternalsPlugin( 'commonjs', [ 'libui-node' ] ),
     new VueLoaderPlugin()
   ],
   performance: {
