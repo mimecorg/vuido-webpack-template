@@ -4,8 +4,11 @@
   "description": "{{ description }}",
   "main": "dist/main.js",
   "scripts": {
-    "build": "webpack --config build/webpack.config.js",
-    "start": "node ./dist/main.js"
+    "build": "webpack --config build/webpack.config.js --env.production",
+    "build:dev": "webpack --config build/webpack.config.js",
+    "watch": "webpack --config build/webpack.config.js --watch",
+    "start": "node ./dist/main.min.js",
+    "start:dev": "node ./dist/main.js"
   },
   "author": "{{ author }}",
   "license": "{{ license }}",
