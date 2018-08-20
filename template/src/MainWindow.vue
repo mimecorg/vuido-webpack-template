@@ -7,12 +7,10 @@
 </template>
 
 <script>
-import libui from 'libui-node'
-
 export default {
   methods: {
     exit() {
-      libui.stopLoop();
+      this.$exit();
     }
   }
 }
